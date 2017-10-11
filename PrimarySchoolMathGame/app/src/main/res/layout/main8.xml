@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="信息"
+        android:textSize="28sp" />
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/para1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:text="12"
+            android:textColor="#000"
+            android:textSize="45dp" />
+
+        <TextView
+            android:id="@+id/operator"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:text="+"
+            android:textColor="#000"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/para2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:text="12"
+            android:textColor="#000"
+            android:textSize="45dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:text="="
+            android:textColor="#000"
+            android:textSize="35dp" />
+
+        <EditText
+            android:editable="true"
+            android:id="@+id/result"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:numeric="integer"
+            android:textColor="#000"
+            android:textSize="45dp" />
+
+        <TextView
+            android:id="@+id/see1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="..."
+            android:textColor="#000"
+            android:textSize="40dp"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/remainder1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="余数"
+            android:numeric="integer"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="66dp"
+            android:layout_height="30dp"
+            android:background="@drawable/btn_selector"
+            android:text="提交"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/para_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:text="12"
+            android:textColor="#000"
+            android:textSize="45dp" />
+
+        <TextView
+            android:id="@+id/operator_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:text="+"
+            android:textColor="#000"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/para_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:text="12"
+            android:textColor="#000"
+            android:textSize="45dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:text="="
+            android:textColor="#000"
+            android:textSize="35dp" />
+
+        <EditText
+            android:editable="true"
+            android:id="@+id/result_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:numeric="integer"
+            android:textColor="#000"
+            android:textSize="45dp" />
+
+        <TextView
+            android:id="@+id/see2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numeric="integer"
+            android:text="..."
+            android:textColor="#000"
+            android:textSize="40dp"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/remainder2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="余数"
+            android:numeric="integer"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/submit_1"
+            android:layout_width="66dp"
+            android:layout_height="30dp"
+            android:background="@drawable/btn_selector"
+            android:text="提交"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/paraa1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:text=""
+            android:textColor="#000"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/operatorr1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:text=""
+            android:textColor="#000"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/paraa2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:text=""
+            android:textColor="#000"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:text="="
+            android:textColor="#000"
+            android:textSize="35dp" />
+
+        <EditText
+            android:id="@+id/resultt1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:numeric="integer"
+            android:textColor="#000"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/see3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="..."
+            android:textColor="#000"
+            android:textSize="40dp"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/remainder3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="余数"
+            android:numeric="integer"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/submitt1"
+            android:layout_width="66dp"
+            android:layout_height="30dp"
+            android:background="@drawable/btn_selector"
+            android:text="提交" />
+    </LinearLayout>
+</LinearLayout>

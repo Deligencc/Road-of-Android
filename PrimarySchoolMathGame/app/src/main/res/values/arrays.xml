@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="ItemArray">
+        <item>口算模式</item>
+        <item>填空模式</item>
+    </array>
+</resources>
