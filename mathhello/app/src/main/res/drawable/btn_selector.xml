@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--通常状态下-->
+    <item android:drawable="@drawable/btn_bg2" android:state_pressed="false">
+    </item>
+    <!--点击状态下-->
+    <item android:drawable="@drawable/btn_bg_p" android:state_pressed="true"/>
+
+</selector>
+
+
+

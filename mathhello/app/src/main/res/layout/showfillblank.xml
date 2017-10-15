@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <Button
+            android:text="上一页"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/btnLeft"
+            android:background="@drawable/btn_selector"
+            android:layout_width="75dp"
+            android:layout_height="45dp" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="练习模式"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="30sp"
+            />
+        <Button
+            android:text="下一页"
+            android:background="@drawable/btn_selector"
+            android:id="@+id/btnRight"
+            android:layout_width="75dp"
+            android:layout_height="45dp" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="0dp"></ListView>
+
+</LinearLayout>
